@@ -11,152 +11,6 @@ const app = new App({
     teamNames: ["Team A", "Team B"],
     qas: [
       {
-        question: "Which programing language is dead?",
-        answers: [
-          {
-            text: "Perl",
-            money: 17,
-          },
-          {
-            text: "PHP",
-            money: 11,
-          },
-          {
-            text: "Haskell",
-            money: 6,
-          },
-          {
-            text: "Lisp",
-            money: 4,
-          },
-          {
-            text: "Ruby",
-            money: 3,
-          },
-          {
-            text: "Elm",
-            money: 1,
-          },
-        ],
-      },
-      {
-        question: "Which tools do you use to view/captiure logs?",
-        answers: [
-          {
-            text: "Elasticsearch",
-            money: 17,
-          },
-          {
-            text: "Prometheus",
-            money: 11,
-          },
-          {
-            text: "Grafana",
-            money: 6,
-          },
-          {
-            text: "Splunk",
-            money: 4,
-          },
-          {
-            text: "Datadog",
-            money: 3,
-          },
-          {
-            text: "Sumologic",
-            money: 1,
-          },
-        ],
-      },
-      {
-        question: "Which programing language is popular?",
-        answers: [
-          {
-            text: "JavaScript",
-            money: 17,
-          },
-          {
-            text: "HTML/CSS",
-            money: 11,
-          },
-          {
-            text: "Python",
-            money: 6,
-          },
-          {
-            text: "SQL",
-            money: 4,
-          },
-          {
-            text: "TypeScript",
-            money: 3,
-          },
-          {
-            text: "Bash",
-            money: 1,
-          },
-        ],
-      },
-      {
-        question: "What is the most hated thing about programming?",
-        answers: [
-          {
-            text: "Pay",
-            money: 17,
-          },
-          {
-            text: "Great projects",
-            money: 11,
-          },
-          {
-            text: "Flexibility",
-            money: 6,
-          },
-          {
-            text: "Location",
-            money: 4,
-          },
-          {
-            text: "Hours",
-            money: 3,
-          },
-          {
-            text: "Benefits",
-            money: 1,
-          },
-        ],
-      },
-      {
-        question:
-          "Which processes, tools, and programs gives best developer experience?",
-        answers: [
-          {
-            text: "CICD",
-            money: 17,
-          },
-          {
-            text: "Automated testing",
-            money: 11,
-          },
-          {
-            text: "DevOps",
-            money: 6,
-          },
-          {
-            text: "Microservices",
-            money: 4,
-          },
-          {
-            text: "Observability tools",
-            money: 3,
-          },
-          {
-            text: "Developer portal",
-            money: 1,
-          },
-        ],
-      },
-      {
         question:
           "What is the main activity that causes you to be unproductive?",
         answers: [
@@ -299,6 +153,152 @@ const app = new App({
           },
           {
             text: "Owner",
+            money: 1,
+          },
+        ],
+      },
+      {
+        question:
+          "Which processes, tools, and programs gives best developer experience?",
+        answers: [
+          {
+            text: "CICD",
+            money: 17,
+          },
+          {
+            text: "Automated testing",
+            money: 11,
+          },
+          {
+            text: "DevOps",
+            money: 6,
+          },
+          {
+            text: "Microservices",
+            money: 4,
+          },
+          {
+            text: "Observability tools",
+            money: 3,
+          },
+          {
+            text: "Developer portal",
+            money: 1,
+          },
+        ],
+      },
+      {
+        question: "Which programing language is dead?",
+        answers: [
+          {
+            text: "Perl",
+            money: 17,
+          },
+          {
+            text: "PHP",
+            money: 11,
+          },
+          {
+            text: "Haskell",
+            money: 6,
+          },
+          {
+            text: "Lisp",
+            money: 4,
+          },
+          {
+            text: "Ruby",
+            money: 3,
+          },
+          {
+            text: "Elm",
+            money: 1,
+          },
+        ],
+      },
+      {
+        question: "Which tools do you use to view/captiure logs?",
+        answers: [
+          {
+            text: "Elasticsearch",
+            money: 17,
+          },
+          {
+            text: "Prometheus",
+            money: 11,
+          },
+          {
+            text: "Grafana",
+            money: 6,
+          },
+          {
+            text: "Splunk",
+            money: 4,
+          },
+          {
+            text: "Datadog",
+            money: 3,
+          },
+          {
+            text: "Sumologic",
+            money: 1,
+          },
+        ],
+      },
+      {
+        question: "Which programing language is popular?",
+        answers: [
+          {
+            text: "JavaScript",
+            money: 17,
+          },
+          {
+            text: "HTML/CSS",
+            money: 11,
+          },
+          {
+            text: "Python",
+            money: 6,
+          },
+          {
+            text: "SQL",
+            money: 4,
+          },
+          {
+            text: "TypeScript",
+            money: 3,
+          },
+          {
+            text: "Bash",
+            money: 1,
+          },
+        ],
+      },
+      {
+        question: "What do you like the most about your job?",
+        answers: [
+          {
+            text: "Pay",
+            money: 17,
+          },
+          {
+            text: "Great projects",
+            money: 11,
+          },
+          {
+            text: "Flexibility",
+            money: 6,
+          },
+          {
+            text: "Location",
+            money: 4,
+          },
+          {
+            text: "Hours",
+            money: 3,
+          },
+          {
+            text: "Benefits",
             money: 1,
           },
         ],
