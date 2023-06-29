@@ -17,7 +17,9 @@ jobs:
           npm run build
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+        uses: JamesIves/github-pages-deploy-action@4.4.1
         with:
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
           branch: gh-pages
-          folder: public
+          folder: ./public
+          repository-name: NithinKuruba/hacker-feud
