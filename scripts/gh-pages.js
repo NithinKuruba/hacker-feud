@@ -1,6 +1,6 @@
-import { publish } from "gh-pages";
+var ghpages = require("gh-pages");
 
-publish(
+ghpages.publish(
   "public",
   {
     branch: "gh-pages",
@@ -8,7 +8,7 @@ publish(
     repo:
       "https://" +
       process.env.GITHUB_TOKEN +
-      "@github.com/NithinKuruba/hacker-feud.git",
+      "@github.com/nithinkuruba/hacker-feud.git",
     user: {
       name: "Nithin Kuruba",
       email: "nithinshekar.kuruba@gmail.com",
